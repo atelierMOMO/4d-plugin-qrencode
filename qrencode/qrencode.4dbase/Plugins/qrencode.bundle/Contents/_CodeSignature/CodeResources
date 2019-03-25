@@ -415,36 +415,14 @@
 			yWLje/xqdDH7cXixQNQ0YNewInUfJnU8nT8AitFGzSY=
 			</data>
 		</dict>
-		<key>Windows/qrencode.4DX</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a3DhWpTmRd3el6rlvP7Yqu5RYGc=
-			</data>
-			<key>hash2</key>
-			<data>
-			SPCfA+mOWcsbkLB5oBEH5L2cSeLzjG27qhY0Mw10V2k=
-			</data>
-		</dict>
-		<key>Windows64/qrencode.4DX</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			roy2BAqXLgW6vJO06vE/bDtdv5o=
-			</data>
-			<key>hash2</key>
-			<data>
-			9aAgIdVlgi9WExw4PqdWpHcew09jKn6gIi8xpFhTc+I=
-			</data>
-		</dict>
 		<key>manifest.json</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			OrxwwVvQmsSf3Vcd5cn3cuDR+60=
+			IhGbtX/4qiqyrqVY0nq5CbgH0lM=
 			</data>
 			<key>requirement</key>
-			<string>identifier manifest and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
+			<string>identifier manifest and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: shirokumakun@me.com (922KU5UM3K)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 	</dict>
 	<key>rules</key>
@@ -464,6 +442,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -523,6 +506,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
